@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="BSSeguraMelgarejo">
+	<meta name="description" content="Domicilios de Restaurante de Comida Colombiana">
+	<title>Domicilios - Restaurante de Comida Colombiana</title>
+</head>
+<body>
+<header>	
+			<nav>
+	            <h1>Domicilios del Restaurante de Comida Colombiana</h1>
+	            <p>La mejor comida, el mejor sabor</p>
+	            <figure id="logo">
+					<img src="img/logo.png" alt="logo del restaurante" height="200">
+           		 </figure>
+
+	            <br>
+	            <hr>
+
+	            <section id="menu">
+    			<!-- menu -->
+	    			<ul>
+	    				<li><a href="index.html">inicio</a></li>
+	    				<li><a href="contacto.html">Contacto</a></li>
+	    				<li><a href="carta.html">Carta</a></li>
+	    				<li><a href="#domicilios">Domicilios</a></li>
+	    			</ul>
+
+	    			<hr>
+
+    			</section>
+	            
+        	</nav>
+            
+            
+    </header>
+
+
+<div class="contenedor">
+    <main>
+
+    	<section id=bienvenida>
+    		
+    		<h2>Restaurante de Comida Colombiana</h2>
+    		<p>La mejor comida, el mejor Sabor</p> 
+
+    		<figure id="imagen principal domicilios">
+    			<img src="img/imagen principal domicilios.jpg" alt="imagen principal del domicilios" height="400">
+    		</figure>
+    		<p><em><strong>Somos un restaurante de comida Colombiana</strong></em>. Hacemos comida típica, para toda ocación desayunos y almuerzos. Desde 1989 deleitamos su paladar con comida de la <em>región Andina</em>, a partir de 1997 preparamos exquisitos platos de la <em>región caribe</em> y desde 1999 tenemos el gusto de ofrecer al público la mejor gastronomía de la<em> Orinoquía</em></p>  
+
+    		<p>
+    		Nuestro restaurante es atendido por sus propietarios, usted recibirá la mejor atención y disfrutara de la mas exquisita comida en el centro de Bogotá, donde las culturas del país confluyen para deleitar el paladar
+    		</p>	
+
+    		<p><em>Lo esperamos en el mejor restaurante de comida colombiana</em> para tener el gusto de atenderlo</p>	
+
+    		<hr>
+
+    	</section>
+
+    	<section id="domicilios">
+    		<h3>Domicilios</h3>
+
+            <form class="formulario">
+                
+                <fieldset>
+                    <legend>Datos del Usuario</legend>
+                    
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" autocomplete="on" placeholder="tu nombre"id="nombre" required>
+
+                    <br>
+                    <br>
+
+                    <label for="apellido">Apellido</label>
+                    <input type="texto" name="apellido" autocomplete="on" placeholder="tu apellido" id="apellido" required>
+
+                    <br>
+                    <br>
+
+                    <label for="identificacion">Identificación</label>
+                    <input type="text" name="identificacion" autocomplete="on" placeholder="tu identificación" id="identificación" required>
+
+                    <br>
+                    <br>
+
+                    <label for="correo">Correo</label>
+                    <input type="text" name="email" placeholder="name@dominio.com" id="correo" autocomplete="on">
+
+                    <br>
+                    <br>
+
+                    <label for="sexo">Sexo</label>
+                    <br>
+                    <input type="radio" name="sexo" value="hombre">Hombre
+                    <br>
+                    <input type="radio" name="sexo" value="mujer">Mujer
+                    <br>
+                    <input type="radio" name="sexo" value="otro">Otro
+
+                    <br>
+                    <br>
+
+                    <label for="direccion">Dirección</label>
+                    <input type="text" name="direccion" placeholder="tu direccion" autocomplete="on" id="direccion" required>
+
+                    <br>
+                    <br>
+
+                    <label for="telefono">Telefono</label>
+                    <input type="text" name="telefono" placeholder="tu telefono" autocomplete="on" id="telefono" required>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Elegir los platos</legend>
+
+                    <p>A continuación, le mostraremos la cara separada por platos para <em>desayunos y onces</em>, <em>almuerzos y cenas</em> y <em>bebidas</em>. Recuerde que puede realizar el pedido del plato que desee a la hora que prefiera, para nosotros es un gusto deleitarlo con la mejor comida</p>
+
+                    <fieldset>
+                        <legend>Desayunos y Onces</legend>
+                        
+                        <table>
+                            <caption>Desayunos y Onces</caption>
+                            <thead>
+                                <tr>
+                                    <th>Plato</th>
+                                    <th>Cantidad</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><input type="checkbox" name="Cayeye y cabeza de gato">Cayeye y cabeza de gato</td>
+                                    <td><input type="number" name="cantidad" min="0" max="50"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="Chocolate santafereño">Chocolate santafereño</td>
+                                    <td><input type="number" name="cantidad" min="0" max="50"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="Changua">Changua</td>
+                                    <td><input type="number" name="cantidad" min="0" max="50"></td>
+                                </tr>
+                                <tr>
+                                    <td> <input type="checkbox" name="Aguapanela con queso">Aguapanela con queso</td>
+                                    <td><input type="number" name="cantidad" min="0" max="50"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="Calentado Colombiano">Calentado Colombiano</td>
+                                    <td><input type="number" name="cantidad" min="0" max="50"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="Tamal Colombiano">Tamal Colombiano</td>
+                                    <td><input type="number" name="cantidad" min="0" max="50"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="Tungos">Tungos</td>
+                                    <td><input type="number" name="cantidad" min="0" max="50"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="Arepas">Arepas</td>
+                                    <td><input type="number" name="cantidad" min="0" max="50"></td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="2" align="center">Los más deliciosos desayunos y Onces</td>
+                                </tr>
+                                
+                            </tfoot>
+                        </table>
+
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Almuerzos y Cenas</legend>
+
+                         <table>
+                            <caption>Almuerzos y Cenas</caption>
+                            <thead>
+                                <tr>
+                                    <th>Plato</th>
+                                    <th>Cantidad</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><input type="checkbox" name="Cocido boyacence">Cocido boyacence</td>
+                                    <td><input type="number" name="cantidad" min="0" max="50"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="Ajiaco Santafereño">Ajiaco Santafereño</td>
+                                    <td><input type="number" name="cantidad" min="0" max="50"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="Bandeja paisa">Bandeja paisa</td>
+                                    <td><input type="number" name="cantidad" min="0" max="50"></td>
+                                </tr>
+                                <tr>
+                                    <td> <input type="checkbox" name="Viuda de Bocachico">Viuda de Bocachico</td>
+                                    <td><input type="number" name="cantidad" min="0" max="50"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="Cazuela de mariscos">Cazuela de mariscos</td>
+                                    <td><input type="number" name="cantidad" min="0" max="50"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="Sancocho costeño">Sancocho costeño</td>
+                                    <td><input type="number" name="cantidad" min="0" max="50"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="Carne a la mamona">Carne a la mamona</td>
+                                    <td><input type="number" name="cantidad" min="0" max="50"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="cachama asada">cachama asada</td>
+                                    <td><input type="number" name="cantidad" min="0" max="50"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="Trucha al ajillo">Trucha al ajillo</td>
+                                    <td><input type="number" name="cantidad" min="0" max="50"></td>
+                                </tr>
+
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="2" align="center">Los más deliciosos almuerzos y cenas</td>
+                                </tr>
+                            </tfoot>
+                        </table>
+
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Bebidas</legend>
+
+                        <table>
+                            <caption>Bebidas</caption>
+                            <thead>
+                                <tr>
+                                    <th>Bebida</th>
+                                    <th>Cantidad</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><input type="checkbox" name="Tinto">Tinto</td>
+                                    <td><input type="number" name="cantidad" min="0" max="50"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="Café con leche">Café con leche</td>
+                                    <td><input type="number" name="cantidad" min="0" max="50"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="Aguapanela fria">Agapanela fría</td>
+                                    <td><input type="number" name="cantidad" min="0" max="50"></td>
+                                </tr>
+                                <tr>
+                                    <td> <input type="checkbox" name="Jugos naturales">Jugos naturales</td>
+                                    <td><input type="number" name="cantidad" min="0" max="50"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="Masato">Masato</td>
+                                    <td><input type="number" name="cantidad" min="0" max="50"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="Chicha">Chicha</td>
+                                    <td><input type="number" name="cantidad" min="0" max="50"></td>
+                                </tr>
+                                
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="2" align="center">Las más deliciosas bebidas</td>
+                                </tr>
+                            </tfoot>
+                        </table>
+
+                    </fieldset>
+                </fieldset>
+                <fieldset>
+                    <legend>Confirmación y Envío</legend>
+
+                    <label for="obseraciones">Observaciones de su pedido</label>
+                    <input type="text" name="observaciones" placeholder="tus observaciones" autocomplete="off" id="observaciones">
+
+                    <br>
+                    <br>
+
+
+                    <button type="reset">Cancelar</button>
+                    <button type="submit">Enviar</button>
+
+
+                </fieldset>
+            </form>
+    		
+    	</section>
+<!-- 1 -->    		
+
+    </main>
+
+    <aside>
+    	<h4>Una pequeña reseña histórica de la musica colombiana</h4>
+
+    	<figure><img src="http://musicandote.com/wp-content/uploads/2013/08/bailes-tipicos_40_1485051309.jpg" alt="imagen de musica colombiana" height="300"></figure>
+		
+		<p>El país de Colombia recoge propiedades culturales del indio, africano y el español, pues fueron éstos quienes crearon la etnología de este lugar. No hace mucho tiempo, la música colombiana fue además influenciada por diferentes estilos, sobre todo latinoamericanos, anglosajonas y caribeños. La inmensa y variada clase de estilos han hecho que la música colombiana sea considerada como una de las más opulentas del planeta. Tal es así, que no es de extrañar que conozcamos a más de un artista de esta procedencia, y no sólo a nivel nacional sino ya mundialmente. Como pueden ser Juanes, Andrés Cepeda, Shakira, Miranda o Carlos Vives.</p>
+
+		<a href="http://musicandote.com/musica-colombiana/" target="_blank">Leer mas...</a>
+
+		<hr>
+    </aside>
+</div><!-- cierra el div de contenedor -->
+
+<footer>
+	<br>
+	<br>
+	<address>
+		<p>Restaurante de Comida Colombiana</p>
+		<p>La mejor comida, el mejor sabor</p>
+		<p>Carrera 69B # 68-92</p>
+		<p>301 2024060 - 486 9712</p>
+		<p>Bogotá D.C.</p>
+		<p>2019</p>
+		<br>
+		<p>Todos los derechos reservados &copy;</p>
+		
+	</address>
+
+</footer>
+
+</body>
+</html>
